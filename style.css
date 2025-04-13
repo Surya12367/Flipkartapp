@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{   
+   background-color: rgb(224, 49, 78);
+}
+
+#container1{
+    /* background-color: black; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cont1{
+    color: white;
+    height: 170px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+/* h3{
+    font-size: 16px;
+} */
+
+.icons{
+    height: 40px;
+    width: 200px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container2{
+    height: 400px;
+    width: 92%;
+    margin-left: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 25px;
+
+}
+
+#cont2{
+    height: 400px;
+    width: 92%;
+    /* background-color: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contt2{
+    height: 400px;
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#conttt2{
+    height: 200px;
+    width: 67%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: justify;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+#container3{
+    height: 470px;
+    width: 92%;
+    margin-left: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#cont3{
+    height: 70px;
+    width: 92%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#contt3{
+    height: 300px;
+    width: 92%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#project1{
+    height: 250px;
+    width: 32%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#project2{
+    height: 250px;
+    width: 32%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#project3{
+    height: 250px;
+    width: 32%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.pro{
+    color: grey;
+    font-size: 16px;
+}
+
+#container4{
+    height: 470px;
+    width: 92%;
+    margin-left: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#cont4{
+    height: 70px;
+    width: 92%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#contt4{
+    height: 100px;
+    width: 92%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+#conttt4{
+    height: 150px;
+    width: 92%;
+    /* background-color: red; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.work{
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+    text-align: justify;
+}
+
+#container5{
+    height: 300px;
+    width: 92%;
+    margin-left: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#cont5{
+    height: 70px;
+    width: 92%;
+    /* background-color: red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#contt5{
+    height: 150px;
+    width: 92%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#edu1{
+    /* background-color: #fff; */
+    height: 80px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#edu2{
+    /* background-color: #fff; */
+    height: 80px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#edu3{
+    /* background-color: #fff; */
+    height: 80px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#container6{
+    height: 250px;
+    width: 92%;
+    margin-left: 46px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#cont6{
+    height: 70px;
+    width: 92%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#contt6{
+    height: 70px;
+    width: 80%;
+    margin-right: 130px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    color: rgb(176, 175, 175);
+}
+
+#container7{
+    height: 700px;
+    width: 92%;
+    margin-left: 46px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#main{
+    height: 600px;
+    width: 92%;
+    margin-left: 10px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#container8{
+    /* background-color: black; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cont8{
+    color: white;
+    height: 170px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer{
+    font-size: 14px;
+}
+
+
+
+
+
+
